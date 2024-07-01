@@ -1,3 +1,4 @@
+/* Test your compiler */
 #include <stdio.h>
 
 int main()  // NOLINT
