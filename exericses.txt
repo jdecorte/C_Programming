@@ -1,0 +1,9 @@
+1. Write a C program that displays a rectangle, built from the letters x,  with widht = 10 and height = 6:
+xxxxxxxxxx
+x        x
+x        x
+x        x
+x        x
+xxxxxxxxxx
+
+2. Convert the program from exercise 1 in a function that takes the widht and height as parameters. Call that function from the main program. 
