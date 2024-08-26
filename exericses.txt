@@ -6,4 +6,42 @@ x        x
 x        x
 xxxxxxxxxx
 
-2. Convert the program from exercise 1 in a function that takes the widht and height as parameters. Call that function from the main program. 
+2. Write a program that takes an integer value from the keyboard and returns the number with its digits reversed. 
+For example, given the number 7631, the program should return 1367.
+
+3. Convert the program from exercise 1 in a function that takes the widht and height as parameters. 
+Call that function from the main program. 
+
+4.  Indicate in red the code lines that are syntactically incorrect. Indicate in green the expressions that are     
+    syntactically correct, but that are useless or might cause problems during execution.
+    Finally, what will appear on the display? Do not use your computer. 
+
+    int i,j;
+    double d;
+    int *ip = NULL, *jp = NULL;
+    double *dp = NULL;
+    i = 7;
+    ip = &7;
+    jp = &i;
+    *jp = j;
+    *ip = i;
+    ip = &j;
+    &i = ip;
+    j=4;
+    (*ip)++;
+    &d = dp;
+    *ip*= i;
+    *jp=*&j;
+    ip++;
+    i = ip-&i;
+    dp = &i;
+    dp = ip;
+    &dp = &&d;
+    *ip+=1;
+    *ip++;
+    cout <<endl<< i << j << d;
+    printf("i = %d, j = %d",i, j);   
+    printf("i = %d, j = %d",*ip, *jp);
+
+
+
